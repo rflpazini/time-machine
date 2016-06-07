@@ -28,7 +28,7 @@ public class TimeMachine {
             minutes = scanner.nextInt();
         } catch (InputMismatchException e) {
             System.out.println("Input is not a number");
-            throw new InputMismatchException("Input is not a number");
+            //throw new InputMismatchException("Input is not a number");
         }
 
         if (minutes > 0 || minutes < 0) {
